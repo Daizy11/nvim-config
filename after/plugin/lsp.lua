@@ -6,7 +6,7 @@ lsp.ensure_installed({
   'rust_analyzer',
   "gopls"
 })
-
+require("flutter-tools").setup {} 
 -- Fix Undefined global 'vim'
 lsp.nvim_workspace()
 require('go').setup()

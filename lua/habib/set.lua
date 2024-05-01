@@ -9,7 +9,7 @@ vim.opt.expandtab = true
 
 vim.opt.smartindent = true
 
-vim.opt.wrap = false
+vim.opt.wrap = true
 
 vim.opt.swapfile = false
 vim.opt.backup = false
@@ -27,4 +27,4 @@ vim.opt.isfname:append("@-@")
 
 vim.opt.updatetime = 50
 
-
+vim.opt.termguicolors = true
