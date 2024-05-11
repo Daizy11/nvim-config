@@ -28,3 +28,10 @@ vim.opt.isfname:append("@-@")
 vim.opt.updatetime = 50
 
 vim.opt.termguicolors = true
+
+vim.diagnostic.config({
+  virtual_text = false
+})
+vim.diagnostic.disable()
+vim.o.updatetime = 250
+vim.cmd [[autocmd CursorHold,CursorHoldI * lua vim.diagnostic.open_float(nil, {focus=false})]]

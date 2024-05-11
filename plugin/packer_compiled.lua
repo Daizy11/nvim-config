@@ -135,6 +135,11 @@ _G.packer_plugins = {
     path = "/home/habib/.local/share/nvim/site/pack/packer/start/dressing.nvim",
     url = "https://github.com/stevearc/dressing.nvim"
   },
+  ["error-lens.nvim"] = {
+    loaded = true,
+    path = "/home/habib/.local/share/nvim/site/pack/packer/start/error-lens.nvim",
+    url = "https://github.com/chikko80/error-lens.nvim"
+  },
   ["flutter-tools.nvim"] = {
     loaded = true,
     path = "/home/habib/.local/share/nvim/site/pack/packer/start/flutter-tools.nvim",
